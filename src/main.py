@@ -13,9 +13,7 @@ def get_results(division, n) -> str:
 
     Raises:
         Exception with error message if input division is too small for the
-        given number of teams to promote and relegate.
-    
-    """
+        given number of teams to promote and relegate."""
     
     if len(division) < n*2:
         raise Exception(f'Division is too small to have '
